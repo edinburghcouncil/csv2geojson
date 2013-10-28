@@ -28,4 +28,6 @@ WGS84 latitudes and longitudes are assumed. To use an alternative coordinate ref
 Valid options are currently "wgs84" and "osgrid".
 
 
-##Licence
+##License
+
+Licensed under the MIT License - see the [`LICENSE`](LICENSE.md) file for details.
