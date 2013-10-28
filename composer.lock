@@ -1,0 +1,111 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "c2a55815dc969b78d57fdb23062acf44",
+    "packages": [
+        {
+            "name": "nevstokes/coords",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nevstokes/coords.git",
+                "reference": "696f7c4dda0c603d7d3bfb4c27e68a4319865064"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nevstokes/coords/zipball/696f7c4dda0c603d7d3bfb4c27e68a4319865064",
+                "reference": "696f7c4dda0c603d7d3bfb4c27e68a4319865064",
+                "shasum": ""
+            },
+            "require": {
+                "nevstokes/maths": "dev-master",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "NevStokes\\Coords": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Nev Stokes",
+                    "email": "mail@nevstokes.com",
+                    "homepage": "http://nevstokes.com",
+                    "role": "Developer"
+                }
+            ],
+            "time": "2013-10-11 11:54:06"
+        },
+        {
+            "name": "nevstokes/maths",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nevstokes/maths.git",
+                "reference": "63bc47f4660cc34fd20fb0bf1bc22570bae8a2ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nevstokes/maths/zipball/63bc47f4660cc34fd20fb0bf1bc22570bae8a2ef",
+                "reference": "63bc47f4660cc34fd20fb0bf1bc22570bae8a2ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
+            },
+            "suggest": {
+                "ext-bcmath": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "NevStokes\\Maths": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nev Stokes",
+                    "email": "mail@nevstokes.com",
+                    "homepage": "http://nevstokes.com",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "math",
+                "trig"
+            ],
+            "time": "2013-10-28 13:35:38"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nevstokes/maths": 20,
+        "nevstokes/coords": 20
+    },
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": [
+
+    ]
+}

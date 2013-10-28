@@ -1,0 +1,19 @@
+{
+	"name": "edinburghcouncil/csv2geojson",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nev Stokes",
+			"email": "neville.stokes@edinburgh.gov.uk",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3",
+		"nevstokes/maths": "dev-master",
+		"nevstokes/coords": "dev-master"
+	},
+	"autoload": {
+		"psr-0": {"EdinburghCouncil": "src/"}
+	}
+}
